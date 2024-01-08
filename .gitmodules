@@ -1,0 +1,3 @@
+[submodule "super-ttt"]
+	path = super-ttt
+	url = https://github.com/Sehlstedt/super-ttt
