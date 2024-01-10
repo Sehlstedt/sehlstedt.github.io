@@ -3,6 +3,7 @@ function notifyMe() {
         console.log('Browser does not support notifications.');
     } else {
         // check if permission is already granted
+        //extra comment check
         if (Notification.permission === 'granted') {
             // show notification here
             var notify = new Notification('Hi there!', {
