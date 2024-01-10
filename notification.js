@@ -7,7 +7,6 @@ function notifyMe() {
             // show notification here
             var notify = new Notification('Hi there!', {
                 body: 'How are you doing?',
-                icon: 'https://bit.ly/2DYqRrh',
             });
         } else {
             // request permission from user
@@ -16,7 +15,6 @@ function notifyMe() {
                     // show notification here
                     var notify = new Notification('Hi there!', {
                         body: 'How are you doing?',
-                        icon: 'https://bit.ly/2DYqRrh',
                     });
                 } else {
                     console.log('User blocked notifications.');
